@@ -22,10 +22,6 @@ class DecemberDay1
     else { return (int)Math.Pow(7,pow) + sevenish_numbers(dist); }
   }
 
-  /// <summary>
-  ///   Run program
-  /// </summary>
-  [STAThread]
   public static void Main(string[] args)
   {
     Console.Write("input n: ");
