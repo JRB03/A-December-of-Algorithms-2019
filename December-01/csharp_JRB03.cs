@@ -2,7 +2,7 @@ using System;
 
 class DecemberDay1
 {
-  public int sevenish_numbers(int n)
+  static int sevenish_numbers(int n)
   {
     int pow = 0;
     bool section = true;
@@ -31,8 +31,6 @@ class DecemberDay1
     Console.Write("input n: ");
     int n = Convert.ToInt32(Console.ReadLine());
 
-    DecemberDay1 trial = new DecemberDay1();
-
-    Console.WriteLine(trial.sevenish_numbers(n));
+    Console.WriteLine(sevenish_numbers(n));
   }
 }
