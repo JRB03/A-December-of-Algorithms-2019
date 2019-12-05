@@ -1,6 +1,6 @@
 using System;
 
-class DecemberDay3
+class DecemberDay4
 {
   static int h_index(int n, int[] papers)
   {
